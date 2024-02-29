@@ -15,7 +15,7 @@
 		<ApplicationTitle>MultiOS</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.multios</ApplicationId>
+		<ApplicationId>games.realgolf.multios</ApplicationId>
 		<ApplicationIdGuid>d3ecae7c-237a-46f7-89e4-eb9fe702128b</ApplicationIdGuid>
 
 		<!-- Versions -->
@@ -31,7 +31,7 @@
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
-	  <CreatePackage>false</CreatePackage>
+		<CreatePackage>false</CreatePackage>
 	</PropertyGroup>
 	<ItemGroup>
 		<!-- App Icon -->
